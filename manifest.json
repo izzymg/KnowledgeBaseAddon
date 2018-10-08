@@ -1,0 +1,12 @@
+{
+    "name": "KnowledgeBase",
+    "version": "1.0",
+    "description": "Generate a knowledge base moodle article",
+    "browser_action": {
+        "default_popup": "../popup/popup.html"
+    },
+    "permissions": [
+        "tabs"
+      ],
+    "manifest_version": 2
+}
