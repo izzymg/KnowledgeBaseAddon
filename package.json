@@ -1,0 +1,12 @@
+{
+  "name": "knowledgebaseaddon",
+  "version": "1.0.0",
+  "description": "OP KB article creator",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izzymg/KnowledgeBaseAddon.git"
+  },
+  "author": "Izzy MG",
+  "dependencies": {},
+  "devDependencies": {}
+}
