@@ -4,13 +4,17 @@
         <link rel="stylesheet" type="text/css" href="popup.css">
     </head>
     <body>
+        <h1>Generate Moodle Knowledge Base Article</h1>
+        <p>Enter the link to the moodle chapter, and a brief description such as "Learn to Customise your Dashboard". Copy and paste the content of the textbox below into the HTML of a new KB article.</p>
         <span id="kb_status"></span>
-        <div id="kb_input_form">
-            <input type="text" placeholder="Moodle link" id="kb_moodle_link">
-            <input type="text" placeholder="Description" id="kb_moodle_desc">
-            <button id="kb_moodle_submit"> Submit </button>
-        </div>
-        <textarea id="kb_textarea"></textarea>
+        <div class="main-content">
+            <div id="kb_input_form">
+                <input type="text" placeholder="Moodle link" id="kb_moodle_link">
+                <input type="text" placeholder="Description" id="kb_moodle_desc">
+                <button id="kb_moodle_generate"> Generate </button>
+            </div>
+            <textarea id="kb_textarea"></textarea>
+      </div>
         <script src="popup.js"></script>
     </body>
 

@@ -1,0 +1,42 @@
+html {
+    font-family: sans-serif;
+    background: #fff;
+    margin: 0;
+}
+
+.main-content {
+    text-align: center;
+}
+
+#kb_input_form {
+    margin: 10px 55px;
+}
+
+#kb_input_form button {
+    margin: 10px 0;
+    padding: 5px;
+    background: lightcoral;
+    border: none;
+}
+
+textarea {
+    width: 90%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+h1 {
+    font-weight: normal;
+    color: #474746;
+}
+
+body {
+    width: 400px;
+    height: 500px;
+}
+
+input {
+    display: block;
+    width: 100%;
+}
